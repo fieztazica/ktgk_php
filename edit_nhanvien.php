@@ -89,6 +89,7 @@ if (isset ($_GET["inserted"])) {
                     }
                     $option .= '">' . $item["Ten_Phong"];
                     $option .= "</option>";
+                    echo $option;
                 }
                 ?>
             </select>
